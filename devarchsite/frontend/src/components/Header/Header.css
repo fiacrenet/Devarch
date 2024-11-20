@@ -1,0 +1,80 @@
+.header{
+    border: none;
+    height: 34vw;
+    margin: 0px;
+    background: url('/mya_header.png') no-repeat;
+    position: relative;
+
+ }
+
+
+ .header-contents{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 20%;
+    left: 6vw;
+    animation: fadeIn 3s;
+ }
+
+ .header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+    text-shadow: 0 0 1em #d6b10e;
+ }
+
+ .header-contents h3{
+    font-weight: 400;
+    color: white;
+    font-size: max(2.5vw, 14px);
+ }
+
+ .header-contents p{
+    color: white;
+    font-size: 1.2vw;
+ }
+
+ .header-contents button{
+    border: none;
+    background-color: #d6b10e;
+    color:#03476E;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    font-size: max(1vw, 13px);
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .header-contents button:hover{
+    background-color:#FFF;
+    color:#03476E; 
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ }
+
+ @media (max-width:1050px) {
+     
+      .header-contents{
+         max-width: 50%;
+      }
+ }
+
+ @media (max-width:750px) {
+
+   .header-contents{
+      max-width: 65%;
+   }
+
+   .header-contents p{
+      display: none;
+   }
+
+   .header-contents button{
+      padding: 2vw 4vw;
+   }
+}

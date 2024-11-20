@@ -1,0 +1,174 @@
+.navbar{
+    /* background-color: #d6b10e; */
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 270px;
+    height: 130px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    color: #717577;
+    font-size: 18px;
+
+}
+
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-right .btn-devis{
+    border: none;
+    color: #03476E;
+    background-color: #d6b10e;
+    font-family: outfit;
+    font-weight: 500;
+    padding: 0.75vw 0.75vw;
+    font-size: max(1vw, 13px);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-right .btn-devis:hover{
+    background-color:#03476E;
+    color:#d6b10e;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.navbar-right .social-media-icon{
+    margin-right: 15px;
+    width:auto;
+
+}
+
+.navbar .social-media-facebook-icon{
+    padding: 5px 5px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+
+.navbar .social-media-instagram-icon{
+    padding: 5px 5px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+.navbar .social-media-linkedin-icon{
+    padding: 5px 5px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #d6b10e;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+@media (max-width:1050px) {
+    .navbar .logo{
+        width: 200px;
+    }
+
+    .navbar-menu{
+        gap:20px;
+        font-size: 17px;
+    }
+
+    .navbar-right{
+        gap:20px;
+    }
+
+    .navbar-right .btn-devis{
+        width: 20px;
+        font-size: 18px;
+    }
+
+    .navbar-right .social-media-icon{
+        padding: 7px 20px;
+        
+
+    }
+    
+}
+
+@media (max-width:900px) {
+    .navbar .logo{
+        width: 130px;
+        height: 50px;
+    }
+
+    .navbar-menu{
+        gap:15px;
+        font-size: 15px;
+    }
+
+    .navbar-right{
+        gap:30px;
+    }
+
+    .navbar-right .btn-devis{
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .navbar-right .social-media-icon{
+        padding: 8px 25px;
+
+    }
+    
+}
+
+@media (max-width:750px) {
+
+    .navbar-menu{
+        display: none;
+    }
+
+    .navbar-right .social-media-icon{
+        padding: 5px 10px;
+    }
+
+    .navbar-right .social-media-facebook-icon{
+        padding: 2px 2px;
+        width: 30px;
+        height: 30px;
+        cursor:pointer;
+    }
+
+    .navbar-right .social-media-instagram-icon{
+        padding: 2px 2px;
+        width: 30px;
+        height: 30px;
+        cursor:pointer;
+    }
+
+    .navbar-right .social-media-linkedin-icon{
+        padding: 2px 2px;
+        width: 30px;
+        height: 30px;
+        cursor:pointer;
+    }
+
+
+}

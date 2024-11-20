@@ -1,0 +1,281 @@
+.about-us{
+   /* background-color: rgba(128, 128, 128, 0.126); */
+    height: auto;
+    margin: 0px;
+    display: block;
+    align-items: center;
+}
+
+.about-us h1{
+    color: #424445;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top:15px;
+    padding: 5px;
+}
+
+
+.about-us-content{
+    display: block;
+    margin-top:20px;
+}
+
+.about-us-text-box{
+    width: 80%;
+    border-radius: 0px;
+    box-shadow: 0 0 1em #cbcdcd;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+.about-us-text-box p{
+    color: #717577;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 15px;
+    padding: 10px;
+    gap: 25px;
+    font-size: max(1.2vw, 13px);
+}
+
+.about-us-img{
+    display: flex;
+    position:inherit;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    width: 80%;
+    box-shadow: 0 0 1em #cbcdcd;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about-us-img h3{
+    padding-top: 15px;
+    align-self: center;
+    color: #717577;
+    font-size: max(1.5vw, 14px);
+    }
+
+#text-left{
+    text-align: center;
+}
+
+.about-us-img p{
+    font-size: 1.2vw;
+    color: #717577;
+}
+
+.about-us-img  button{
+    border: none;
+    background-color: #d6b10e;
+    color:#03476E;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    font-size: max(1vw, 13px);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45px;
+    
+} 
+
+.contact-about{
+    display: flex;
+    margin-left: 45px;
+    max-width: 50%;
+}
+
+.contact-tel{
+    display: flex;
+   
+}
+.contact-tel img{
+    width: 30px;
+    height: 25px;
+
+}
+.contact-tel p{
+    margin: 2px;
+    padding-left: 5px;
+}
+.adresse-siege{
+    display: flex;
+}
+
+.adresse-siege img{
+    width: 35px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.adresse-siege p{
+    margin: 2px;
+    padding-left: 5px;
+}
+
+.about-us-img button:hover{
+    background-color:#03476E;
+    color:#d6b10e;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width:1050px) {
+    .about-us{
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .about-us{
+        font-size: 15px;
+    }
+
+    .about-us h1{
+        font-size: medium;
+    }
+
+    .about-us-content{
+        margin-top:15px;
+    }
+
+    .about-us-text-box {
+        width: 50%;
+        margin:auto;
+       
+    }
+
+    .about-us-img{
+        width: 50%;
+        background-image: none;
+        /* box-shadow: 0 0 1em #cbcdcd; */
+        margin-right: 10px;
+        margin-left: 10px;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0.995),
+            rgba(250, 248, 248, 0.984)
+        );
+        
+    }
+
+    .about-us-img h3{
+        padding-top: 50px;
+        font-size: max(1.5vw, 14px);
+        }
+    
+    #text-left{
+        width: 80%;
+    }
+    
+    .about-us-img p{
+        font-size: 1.5vw;
+    }
+    
+    .about-us-img  button{
+        font-weight: 500;
+        padding: 1vw 2.3vw;
+        font-size: max(1vw, 13px);
+    } 
+    
+    .contact-about{
+        max-width: 50%;
+    }
+    
+    .contact-tel{
+        display: flex;
+       
+    }
+    .contact-tel img{
+        width: 25px;
+        height: 20px;
+    
+    }
+
+    
+    .adresse-siege img{
+        width: 25px;
+        height: 20px;
+        padding-left: 5px;
+    }
+    
+    .adresse-siege p{
+        margin: 2px;
+        padding-left: 5px;
+        width: 200px;
+    }
+}
+
+@media (max-width:750px) {
+    .about-us-content{
+        display: block;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:460px) {
+    .about-us-content{
+        justify-content: center;
+    }
+
+    .about-us-text-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-us-img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-us-img h3{
+        padding-top: 10px;
+        font-size: max(1.5vw, 14px);
+        }
+    
+    #text-left{
+        width: 80%;
+    }
+    
+    .about-us-img p{
+        font-size: max(1.2vw, 13px);
+    }
+
+}
+
+@media (max-width:360px) {
+    .about-us-content{
+        align-items: center;
+    }
+
+    .about-us-text-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-us-img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-us-img h3{
+        padding-top: 10px;
+        font-size: max(1.5vw, 14px);
+        }
+    
+    #text-left{
+        width: 80%;
+    }
+    
+    .about-us-img p{
+        font-size: max(1.2vw, 13px);
+    }
+
+}

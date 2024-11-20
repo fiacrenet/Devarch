@@ -1,0 +1,101 @@
+*, ::before ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+    color: #0a6897;
+}
+
+.container{
+    padding-top:0px;
+    width: 100%;
+    min-height: 1000px;
+    background-color: #ffff;
+    box-shadow: 0px 0px 10px #717577;
+    
+}
+
+.tab-container{
+    background: #f1f1f1f1;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid #333;
+}
+
+.tabs{
+    padding: 10px;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: max(1vw, 15px);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tabs:not(:nth-child(5)){
+    border-right: 1px solid #333;
+}
+
+.content{
+    height:70%;
+    width: 100%;
+    position: absolute;
+    color: #717577;
+    display: none;
+}
+
+.content h3 {
+    padding: 20px;
+}
+
+.content h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.content hr{
+    width: 20%;
+    height: 2px;
+    margin-left: 20px;
+    background-color: #333;
+    border: none;
+}
+
+.content-detail p{
+    padding: 20px;
+    line-height: 1.8;
+    width: 50%;
+    height:800px;
+    text-align: justify;
+    overflow-y: auto;
+}
+
+
+.content-detail{
+    display: flex;
+}
+
+.content-detail b{
+    color: #0a6897;
+}
+
+.content-detail ul{
+    margin-left: 5%;
+    color: #0a6897;
+    font-weight: 500;
+}
+
+/** Animation **/
+
+.active-tabs{
+    background:#d6b10e;
+    color: #0a6897;
+    transition: all 0.3s ease-in-out;
+}
+
+.activeContent{
+    display: block;
+}

@@ -1,0 +1,82 @@
+.devis-form{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color:#00000090;
+    display: flex;
+}
+
+.devis-form-container{
+    place-self:center;
+    align-items: center;
+    width: max(35vw, 530px);
+    color: #c9c9c9;
+    background-color: #0f2164;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+    left: 50%;
+    margin-left:500px;
+}
+
+.devis-form-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.devis-form-title img{
+    width: 16px;
+    cursor: pointer;
+    align-items: end;
+}
+
+.devis-from-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.devis-from-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.devis-from-inputs select{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.devis-from-inputs label {
+    font-size: 14px;
+    color: #c9c9c9;
+}
+
+.devis-from-inputs #dateinput{
+    width: 212px;
+}
+
+.devis-form-container button{
+    width: 92%;
+    border: none;
+    color: #03476E;
+    background-color: #d6b10e;
+    font-family: outfit;
+    font-weight: 500;
+    padding: 0.75vw 0.75vw;
+    font-size: max(1vw, 13px);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

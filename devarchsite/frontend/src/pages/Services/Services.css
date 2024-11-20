@@ -1,0 +1,13 @@
+ .service-container{
+    width: 100%;
+}
+
+.service-animation{
+    
+    background-color: #0f2164;
+ }
+
+ .service-animation img{
+    margin-left: 60px;
+    margin-right: 40px;
+ }

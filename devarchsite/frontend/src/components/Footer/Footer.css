@@ -1,0 +1,250 @@
+.footer{
+     background-color: rgba(128, 128, 128, 0.126); 
+     height: auto;
+     padding-bottom: 15px;
+     display: block;
+     align-items: center;
+     background-color: #0f2164;
+     /* background-color: #03476E; */
+      box-shadow: 0 0 1em #cbcdcd;
+ }
+ /*.footer #copyright{
+   text-align: center;
+   color: #e4e9eb;
+ } */
+
+ .footer-container{
+    margin: 25px;
+    display: flex;
+
+ }
+
+ .footer-logo{
+    width: 25%;
+    margin-bottom: 10px;
+ }
+
+ .footer-logo-card img{
+    margin:auto;
+    padding-top:40px;
+    padding-left: 50px;
+    width: 300px;
+    
+ }
+
+ .footer-logo p{
+    color: #e4e9eb;
+    line-height: 1.5;
+ }
+
+ .footer-logo .social-media-facebook-icon{
+    padding: 5px 5px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+
+.footer-logo .social-media-instagram-icon{
+    padding: 5px 5px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+.footer-logo .social-media-linkedin-icon{
+    padding: 5px 5px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+ .footer-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-top:40px ;
+ }
+
+ .footer-adresse-siege{
+    display: flex;
+    margin-top: 30px;
+ }
+
+ .footer-adresse-siege img{
+    width: 30px;
+    height: 25px;
+ }
+
+.footer-adresse-siege p{
+    margin: 2px;
+    padding-left: 5px;
+    color: #e4e9eb;
+}
+
+ .footer-contact-tel {
+    display: flex;
+    margin-top: 30px;
+ }
+
+ .footer-contact-tel img{
+    width: 30px;
+    height: 25px;
+ }
+
+ .footer-contact-tel p{
+    margin: 2px;
+    padding-left: 5px;
+    color: #e4e9eb;
+ }
+
+.footer-contact-email {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-contact-email img{
+    width: 30px;
+    height: 25px;
+}
+
+.footer-contact-email p{
+    margin: 2px;
+    padding-left: 5px;
+    color: #e4e9eb;
+}
+ 
+ .footer-liens{
+    display: block;
+    width: 25%;
+    padding-top:40px ;
+ }
+
+ 
+
+ .footer-liens a{
+   margin-top: 30px;
+   align-items:start;
+   line-height: 1.8;
+   color: #e4e9eb;
+   cursor: pointer;
+ }
+
+ .footer-liens a:hover{
+   color: #d6b10e;
+ }
+
+ .footer-liens h3{
+   align-items:start;
+   line-height: 2;
+   color: #e4e9eb;
+ }
+
+ .section-confidential{
+    display: flex;
+    
+ }
+
+ .section-confidential #copyright{
+   text-align: center;
+   color: #e4e9eb;
+   margin-left: 200px;
+ }
+
+ .section-confidential #politique{
+   color: #e4e9eb;
+   margin-right: 15px;
+   margin-left: 25px;
+}
+
+.section-confidential #mention{
+   color: #e4e9eb;
+}
+
+.section-confidential #politique:hover{
+    color: #03476E;
+    background-color: #d6b10e; 
+    margin-right: 15px;
+    padding: 5px;
+ }
+
+ .section-confidential #mention:hover{
+    color: #03476E;
+    background-color: #d6b10e; 
+    padding: 5px;
+    
+ }
+
+
+ 
+@media (max-width:1050px) {
+
+   .footer-container{
+      margin: 25px;
+      display: flex;
+      flex-wrap: wrap;
+  
+   }
+
+
+
+}
+
+@media (max-width:900px) {
+
+   .footer-container{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  
+   }
+
+   .footer-logo-card img{
+      display: none;
+   }
+   .footer-logo{
+      width: 80%;
+      margin:auto;
+   }
+
+   .footer-contact{
+
+      width: 80%;
+      margin: auto;
+      align-items: start;
+
+
+}
+
+   .footer-liens{
+      width: 80%;
+      margin: auto;
+      align-items: start;
+   }
+
+   .section-confidential{
+      display: flex;
+      flex-wrap: wrap;
+      
+   }
+
+   .section-confidential #copyright{
+      text-align: center;
+      margin:auto;
+    }
+   
+    .section-confidential #politique{
+      padding-bottom: 20px;
+    }
+
+   .section-confidential #mention{
+      padding-bottom: 20%;
+   }
+   
+  
+
+}
+
+ 
+
